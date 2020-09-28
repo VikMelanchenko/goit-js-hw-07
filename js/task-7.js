@@ -7,7 +7,6 @@ const inputSpanText = document.querySelector("span#text");
 inputFontSize.addEventListener("input", onInputRange);
 
 function onInputRange(event) {
-  inputSpanText.getElementsByClassName.fontSize =
-    event.currentTarget.value + "px";
-  console.log(inputSpanText.getElementsByClassName.fontSize);
+  inputSpanText.style.fontSize = event.currentTarget.value + "px";
+  console.log(inputSpanText.style.fontSize);
 }
